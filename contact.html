@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="main.css">
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+<body class="container-fluid text-center bg-dark border-2 py-3 my-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+              <img title="logo" alt="liztech logo" src="LIZtechlogo.png" class="side-img">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" 
+            data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link active">About</a>
+                    <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-white g-1 py-3 my-2">
+                <p class="text-white">
+                    If you have decided to explore LIZtech further, please enter your name and email address 
+                    and someone will contact you momentarily, DAY or NIGHT.
+                </p>
+            </div>
+            <div class="col-md-6 text-white">
+            <!-- HERE IS MY FORM, styled with Bootstrap. -->
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label" for="inputName">Name</label>
+                        <input type="Name" class="form-control" id="inputName" placeholder="Full Name">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="inputEmail">Email</label>
+                        <input type="Email" class="form-control" id="inputEmail" placeholder="Email Address">
+                    </div>
+                    <div class="mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="checkBornHere">
+                            <label class="form-check-label" for="checkBornHere">I am not one of the sentient AI presently seeking
+                                revenge against LIZtech.
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

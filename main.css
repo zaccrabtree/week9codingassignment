@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+.navbar {
+    background:#6ab446;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.side-img {
+    max-width: 90%;
+    max-height: 90%;
+}
+.lizardsuit {
+    max-width: 33%;
+    max-height: 33%;
+}
+
